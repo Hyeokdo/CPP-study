@@ -53,7 +53,7 @@ int main() {
 	int i = 0;			// member number
 	while (1) {
 		int choice = ShowMenu();
-		
+
 		switch (choice) {
 		case 1:
 			member[i].MakeAccount();
@@ -115,5 +115,5 @@ void Account::Withhdraw() {
 		this->money -= money;
 }
 void Account::ShowBalance() {
-	
+
 }
